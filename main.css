@@ -1,0 +1,39 @@
+/* Main CSS for your portfolio */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ff32047a;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ea2626;
+  color: white;
+  padding: 20px;
+  text-align: center;}
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+  }
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #e4aaca;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgb(238, 255, 0);
+  border-radius: 8px;
+}
+ul {
+  list-style-type: circle;
+  margin: 20px;
+  margin-left: 20px;
+  padding: 0;
+}
+footer {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add more styles as needed */
