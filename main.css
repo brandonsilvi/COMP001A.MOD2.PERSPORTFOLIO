@@ -1,13 +1,13 @@
-/* Main CSS for your portfolio */
+/* Main CSS for the portfolio */
 body {
   font-family: Arial, sans-serif;
-  background-color: #ff32047a;
+  background-color: #1b96027a;
   margin: 0;
   padding: 0;
 }
 header {
-  background-color: #ea2626;
-  color: white;
+  background-color: #73e4ee;
+  color: rgb(0, 0, 0);
   padding: 20px;
   text-align: center;}
   h1 {
@@ -15,11 +15,17 @@ header {
     font-size: 2.5em;
     margin: 0;
   }
+div.skills-container {
+  display: flex;
+  flex: 1 1 auto;
+}
 
 .content {
   max-width: 800px;
   margin: 20px auto;
-  background: #e4aaca;
+  background-color: #73e4ee;
+  background: #73e4ee;
+;
   padding: 10px;
   box-shadow: 0 2px 8px rgb(238, 255, 0);
   border-radius: 8px;
@@ -46,7 +52,7 @@ footer {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #ea2626;
+  background-color: #22d6ee;
   color: white;
   padding: 10px;
   text-align: center;
