@@ -24,13 +24,28 @@ justify-content: space-between;
   width: 100%;
 }
 
+/*introduction section*/
+
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* profile picture styling */
+
 .profile-pic {
   border-radius: 5%;
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
-  
+
+/*Top of the page styling */
+
 h2 {
     font-size: 40px;
     font-style: italic;
