@@ -1,10 +1,12 @@
 /* Main CSS for the portfolio */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #1b96027a;
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #73e4ee;
   color: rgb(0, 0, 0);
@@ -12,20 +14,24 @@ header {
   text-align: center;
 display:flex;
 align-items: center;
-justify-content: space-between;}
+justify-content: space-between;
+}
+
 .header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
+
 .profile-pic {
   border-radius: 5%;
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
-  h2 {
+  
+h2 {
     font-size: 40px;
     font-style: italic;
     margin: 0;
@@ -34,11 +40,14 @@ justify-content: space-between;}
     flex-direction: column;
     picture: url('Linkedin\ PFP.jpeg');
   }
-section.skills-container {
+
+  section.skills-container {
   display: flex;
   flex: 1 1 auto;
   justify-content: space-around;
 }
+
+/*middle section with highlight box*/
 
 .certifications {
 max-width: 800px;
@@ -56,6 +65,8 @@ max-width: 800px;
 
 }
 
+/*intro section with highlight box*/
+
 .intro {
   text-align: center;
   margin-left: auto;
@@ -70,6 +81,9 @@ max-width: 800px;
   padding-top: 0%;
   padding-bottom: 0%;
 }
+
+/* list style for leadership experience section */
+
 ul {
   list-style-type: none;
   margin: 20px;
@@ -81,13 +95,17 @@ ul {
     text-indent: 20px;
 }
 
+/* style for list items */
+
 li {
   text-align: center;
   margin-bottom: 20px;
   box-shadow: 0 2px 8px #ffffff;
     padding: 10px;
 }
+
 /* Heading style below for the above list items */
+
 h4 {
   text-align: center;
   margin-top: 0;
@@ -95,6 +113,9 @@ h4 {
   font-size: 1.5em;
   color: #000000;
 }
+
+/* contact information section */
+
 footer {
   text-align: center;
   margin: 0;
