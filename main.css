@@ -8,12 +8,30 @@ body {
 header {
   background-color: #73e4ee;
   color: rgb(0, 0, 0);
-  padding: 20px;
-  text-align: center;}
-  h1 {
-    text-align: center;
-    font-size: 2.5em;
+  padding: 10px;
+  text-align: center;
+display:flex;
+align-items: center;
+justify-content: space-between;}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+  h2 {
+    font-size: 30px;
     margin: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    picture: url('Linkedin\ PFP.jpeg');
   }
 div.skills-container {
   display: flex;
@@ -41,7 +59,7 @@ max-width: 800px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 600px;
   margin: 20px auto;
   background-color: #73e4ee;
   background: #73e4ee;
@@ -68,6 +86,7 @@ li {
   box-shadow: 0 2px 8px #ffffff;
     padding: 10px;
 }
+/* Heading style below for the above list items */
 h4 {
   text-align: center;
   margin-top: 0;
